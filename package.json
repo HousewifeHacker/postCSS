@@ -1,0 +1,22 @@
+{
+  "name": "postCSS",
+  "version": "1.0.0",
+  "description": "Try out PostCSS with prefered modules",
+  "main": "index.html",
+  "repository": "https://github.com/HousewifeHacker/postCSS",
+  "author": "Jessica Anderson",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-loader": "^2.1.5",
+    "precss": "^3.1.2",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.7.0",
+    "webpack-cli": "^2.1.2",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server --mode development --open"
+  }
+}
